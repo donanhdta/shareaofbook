@@ -9,7 +9,7 @@ from threading import Thread
 import telebot # Thư viện: pyTelegramBotAPI
 
 # --- CẤU HÌNH ---
-TOKEN_TELEGRAM = os.getenv("TELEGRAM_TOKEN") # Lấy từ Environment Variable trên Render
+TOKEN_TELEGRAM = "8253784016:AAHE_iK2jrohiDlVI_uSeSSwdwHKjfeDzfo"
 bot = telebot.TeleBot(TOKEN_TELEGRAM)
 app = Flask(__name__)
 
